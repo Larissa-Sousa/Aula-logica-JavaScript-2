@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Compras</title>
+    </head>
+    <body>
+        <h1>Compras de maças</h1>
+
+        <script>
+            var nummaca = parseFloat(prompt("Insira a quantidade de maças que você irá comprar:"))
+
+            if(nummaca<12){
+                var preco = nummaca * 3.50
+                document.write("O valor total da compra será de R$" + preco + ".")
+            }else{
+                var preco = nummaca * 2.50
+                document.write("O valor total da compra será de R$" + preco + ".")
+            }
+        </script>
+    </body>
+</html>

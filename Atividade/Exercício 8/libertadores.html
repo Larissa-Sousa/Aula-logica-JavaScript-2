@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Libertadores</title>
+    </head>
+    <body>
+        <h1>Palmeiras x Corinthians</h1>
+
+        <script>
+            var ngp = parseFloat(prompt("Insira quantos gols o Palmeiras fez durante o jogo:"))
+            var ngc = parseFloat(prompt("Insira quantos gols o Corinthians fez durante o jogo:"))
+
+            if(ngp>ngc){
+                document.write("O Palmeiras é o time vencedor da Libertadores.")
+            } else if (ngc>ngp){
+                document.write("O Corinthians é o time vencedor da Libertadores.")
+            }else{
+                document.write("Os times empataram.")
+            }
+        </script>
+    </body>
+</html>
